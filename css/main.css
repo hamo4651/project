@@ -1,0 +1,89 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #19283f;
+    /* height: 5000px; */
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --dark:#19283f;
+    --green:#33d1cc;
+    --yellow:#ffc400;
+    --sec:#eff7fa;
+}
+
+.container {
+    height: 100vh;
+    padding: 150px;
+
+}
+
+h4{
+    margin-bottom: 30px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    align-items: center;
+
+
+}
+
+.price input{
+    width: 20%;
+    transition: .5s;
+
+
+}
+
+ .form-control
+ {
+    transition: .5s;
+}
+#count{
+    margin: 30px 0px;
+}
+#category{
+    margin: 30px 0px;
+}
+.btn-info{
+    width: 100%;
+    transition: .5s;
+
+
+}
+input:hover{
+    transform: scale(1.05);
+}
+
+.btn-info:hover{
+    transform: scale(1.05);
+    letter-spacing: 1px;
+    background-color: rgb(0, 209, 224);
+
+}
+
+#total{
+    background-color: rgb(165, 52, 52);
+    padding: 8px 10px;
+}
+
+#total::before{
+    content: "Total :  ";
+    
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.search button{
+    width: 40%;
+}
+
